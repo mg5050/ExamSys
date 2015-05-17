@@ -7,21 +7,8 @@ if(!isset($_SESSION['user_type'])) // user not logged in
   exit;
 }
 
-//include("header.php"); 
-/**********
-CS 490 Project
-Phase 1: Skeleton
-Urvish Doshi (Front-end), Michael Gonzalez (Middle-end), Muhammad Faheem Sultan (Back-end)
-**********/
-
-DEFINE ('DB_USER', 'mg254');
-DEFINE ('DB_PASSWORD', 'lineage82');
-DEFINE ('DB_HOST', 'sql2.njit.edu');
-DEFINE ('DB_NAME', 'mg254');
-
 echo $_SESSION["user_name"] . " logged in as type: " . $_SESSION["user_type"] . ".<br>";
 echo "Taking exam: ".$_POST['exam_name']."<br>";
-
 
 $answers = $_POST['answers'];
 $user_name = $_SESSION["user_name"];

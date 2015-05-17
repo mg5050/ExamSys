@@ -31,11 +31,6 @@ if(!isset($_SESSION['user_type']))
 
 <?php
 
-DEFINE ('DB_USER', 'mg254');
-DEFINE ('DB_PASSWORD', 'lineage82');
-DEFINE ('DB_HOST', 'sql2.njit.edu');
-DEFINE ('DB_NAME', 'mg254');
-
 $exam_name = $_POST['exam_name'];
 
 if(!empty($exam_name)) 

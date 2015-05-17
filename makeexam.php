@@ -7,17 +7,6 @@ if(!isset($_SESSION['user_type']))
   exit;
 }
 
-/**********
-CS 490 Project
-Phase 1: Skeleton
-Urvish Doshi (Front-end), Michael Gonzalez (Middle-end), Muhammad Faheem Sultan (Back-end)
-**********/
-
-DEFINE ('DB_USER', 'mg254');
-DEFINE ('DB_PASSWORD', 'lineage82');
-DEFINE ('DB_HOST', 'sql2.njit.edu');
-DEFINE ('DB_NAME', 'mg254');
-
 $selection = $_POST['sel_qs'];
 $exam_name = $_POST['exam_name'];
 $points = $_POST['pts'];

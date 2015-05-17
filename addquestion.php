@@ -6,16 +6,6 @@ if(!isset($_SESSION['user_type']))
   header("Location: https://web.njit.edu/~mg254/web/login.php");
   exit;
 }
-/**********
-CS 490 Project
-Phase 1: Skeleton
-Urvish Doshi (Front-end), Michael Gonzalez (Middle-end), Muhammad Faheem Sultan (Back-end)
-**********/
-
-DEFINE ('DB_USER', 'mg254');
-DEFINE ('DB_PASSWORD', 'lineage82');
-DEFINE ('DB_HOST', 'sql2.njit.edu');
-DEFINE ('DB_NAME', 'mg254');
 
 $qtxt = $_POST["qtxt"];
 $q_tests = $_POST["q_testvals"];

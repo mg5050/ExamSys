@@ -23,7 +23,7 @@ from mysql.connector import errorcode
 
 curs = 0
 try:
-	con = mysql.connector.connect(user='mg254', password='lineage82', host='sql2.njit.edu', database='mg254')
+	con = mysql.connector.connect(user='XXX', password='XXXXXXXXX', host='XXX', database='XXX')
 	curs = con.cursor(buffered=True)
 except mysql.connector.Error as err:
   if err.errno == errorcode.ER_ACCESS_DENIED_ERROR:

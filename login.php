@@ -2,11 +2,6 @@
 <?php
 include("header.php");
 
-DEFINE ('DB_USER', 'mg254');
-DEFINE ('DB_PASSWORD', 'lineage82');
-DEFINE ('DB_HOST', 'sql2.njit.edu');
-DEFINE ('DB_NAME', 'mg254');
-
 $uname = $_POST["username"];
 $pword = $_POST["password"];
 

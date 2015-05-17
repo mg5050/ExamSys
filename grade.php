@@ -35,10 +35,6 @@ $exam_name = $_POST['exam_name'];
     <td data-th="Output">
       <code>
       <?php
-      DEFINE ('DB_USER', 'mg254');
-      DEFINE ('DB_PASSWORD', 'lineage82');
-      DEFINE ('DB_HOST', 'sql2.njit.edu');
-      DEFINE ('DB_NAME', 'mg254');
 
       $mysqli = mysqli_connect(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
       $query = "SELECT * FROM release_ex WHERE exname='".$exam_name."'";
