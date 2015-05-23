@@ -1,8 +1,17 @@
-# ExamSys
-Exam system created for a senior class. Based on codingbat.com
+## ExamSys: CodingBat clone (HTML/PHP/Python/MySQL) : 2015
+
+• Clone of codingbat.com created for a senior class
+
+• Front-end done in HTML, CSS and internal system done with PHP, Python
+
+• Instructor creates exam that student can complete and have graded
+
+• Questions are responded to in Python code which is then automatically stored, executed, and graded
 
 
-Use cases:
+
+
+### Use cases:
 
 1) an instructor can create a new question and add it to the question bank
 
